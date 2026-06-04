@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon src/server.js",
-  "start": "node src/server.js",
-  "worker": "node src/jobs/analysisWorker.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "worker": "node src/jobs/analysisWorker.js"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +22,7 @@
     "mongoose": "^9.6.1",
     "morgan": "^1.10.1",
     "multer": "^2.1.1",
-    "pdf-parse": "^2.4.5",
+    "pdf-parse": "^1.1.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {
